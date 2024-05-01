@@ -1,0 +1,133 @@
+.slide {
+  background-size: cover;
+  background-position: center;
+  /* color: #ffffff; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  object-fit: cover;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.btnc {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -326px;
+}
+.btnc .prev {
+  color: white;
+  margin-left: 2px;
+  font-size: 50px;
+  width: 77px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.btnc .next {
+  color: white;
+  font-size: 50px;
+  width: 77px;
+  background: none;
+  border: none;
+}
+.btnc button:hover {
+  background: orange;
+}
+.sectionscom {
+  margin-top: 190px;
+}
+#mainarea {
+  margin-top: 300px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+  width: 100%;
+}
+
+.home-section h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+
+  z-index: -1;
+  opacity: 10;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 4px 2px rgb(0, 0, 0);
+}
+
+.home-section p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  /* text-shadow: 2px 2px 2px rgb(253, 253, 253); */
+  font-weight: bold;
+}
+
+.home-section img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: blue;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: black;
+}
+@media (max-width: 500px) {
+  .slide {
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    object-fit: cover;
+    padding: 20px;
+  }
+  #mainarea {
+    margin-top: 130px;
+    text-align: center;
+  }
+  .home-section h2 {
+    font-size: 2rem;
+  }
+  .home-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    /* text-shadow: 2px 2px 2px rgb(253, 253, 253); */
+    font-weight: bold;
+  }
+  .btnc {
+    margin-top: -250px;
+  }
+  .btnc .prev {
+    margin-left: -4px;
+    font-size: 40px;
+    width: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .btnc .next {
+    font-size: 40px;
+    width: 40px;
+    background: none;
+    margin-right: -4px;
+    border: none;
+  }
+}
